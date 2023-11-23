@@ -1,21 +1,22 @@
 import './App.css';
 import React from 'react';
-import Navbar from './Components/Navbar/Navbar';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Shop from './Pages/Shop';
-import ShopCategory from './Pages/ShopForm';
-import Product from './Pages/Product';
-import Cart from './Pages/Cart';
-import Login from './Pages/Login';
-import SignUp from './Pages/SignUp';    
-import Footer from './Components/Footer/Footer';
-import men_banner from './Components/Assests/banner_mens.png';
-import women_banner from './Components/Assests/banner_women.png';
-import kid_banner from './Components/Assests/banner_kids.png';
+// import Navbar from './Components/Navbar/Navbar';
+// import { BrowserRouter, Routes, Route } from 'react-router-dom';
+// import Shop from './Pages/Shop';
+// import ShopCategory from './Pages/ShopForm';
+// import Product from './Pages/Product';
+// import Cart from './Pages/Cart';
+// import Login from './Pages/Login';
+// import SignUp from './Pages/SignUp';    
+// import Footer from './Components/Footer/Footer';
+// import men_banner from './Components/Assests/banner_mens.png';
+// import women_banner from './Components/Assests/banner_women.png';
+// import kid_banner from './Components/Assests/banner_kids.png';
+import Router from './Router';
 function App() {
   return (
     <div>
-      <BrowserRouter>
+      {/* <BrowserRouter>
         <Navbar/>
         <Routes>
           <Route path='/' element={<Shop/>}/>
@@ -31,7 +32,8 @@ function App() {
           <Route path='/signup' element={<SignUp/>} />
         </Routes>
         <Footer/>
-      </BrowserRouter>
+      </BrowserRouter> */}
+      <Router/>
     </div>
   );
 }

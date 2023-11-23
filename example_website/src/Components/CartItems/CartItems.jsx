@@ -14,7 +14,7 @@ const CartItems = () => {
         <p>Price</p>
         <p>Quantity</p>
         <p>Total</p>
-        <p>Reamove</p>
+        <p>Remove</p>
       </div>
       <hr/>
       {all_product.map((e)=>{
